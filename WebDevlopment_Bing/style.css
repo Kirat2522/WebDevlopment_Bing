@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(to bottom, #333333, #111111);
+}
+
+#myButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    padding: 20px 40px;
+}
+
+#score {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+#restartButton {
+    position: absolute;
+    top: calc(50% + 50px);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#timer {
+    position: absolute;
+    top: calc(50% - 100px);
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#highScore {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    transition: color 1s;
+}
+
+#myButton,
+#restartButton {
+    padding: 10px20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#myButton:hover,
+#restartButton:hover {
+    background-color: #3E8E41;
+}
